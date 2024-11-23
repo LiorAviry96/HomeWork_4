@@ -12,12 +12,12 @@ export function RootCmp() {
                         <Route path="/home" element={<Home />} />
                         <Route path="/about" element={<About />}/>
 
-                        <Route path="/car" element={<CarIndex />} />
-                        <Route path="/car/:carId" element={<CarDetails />} />
-                        <Route path="/car" element={<CarIndex />} />
-                        <Route path="/car/:carId" element={<CarDetails />} />
-                        <Route path="/car/edit" element={<CarEdit />} />
-                        <Route path="/car/edit/:carId" element={<CarEdit />} />
+                        <Route path="/book" element={<BookIndex />} />
+                        <Route path="/book/:carId" element={<BookDetails />} />
+                        <Route path="/book" element={<BookIndex />} />
+                        <Route path="/book/:bookId" element={<BookDetails />} />
+                        <Route path="/book/edit" element={<BookEdit />} />
+                        <Route path="/book/edit/:bookId" element={<Bookdit />} />
                     </Routes>
             </main>
         </section>

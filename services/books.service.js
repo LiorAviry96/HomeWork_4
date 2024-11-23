@@ -2,7 +2,7 @@ import { utilService } from './util.service.js'
 import { storageService } from './async-storage.service.js'
 
 const BOOK_KEY = 'bookDB'
-_createCars()
+_createBooks()
 
 export const bookService = {
     query,
@@ -70,7 +70,7 @@ function _createBooks() {
 }
 
 function _createBook(title, price = 50) {
-    const book = getEmptyCar(title, price)
+    const book = getEmptyBook(title, price)
     book.id = utilService.makeId()
     return book
 }
